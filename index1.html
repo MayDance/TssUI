@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html class=" js csstransforms3d"><head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>版块1</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/page.css">
+	<link href="css/css_whir.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css"/>
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<!--[if IE]>
+	<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--top-->
+	<div class="header">
+		<h1 class="logo"><a href="index.html">论坛</a></h1>
+		<div class="frCont">
+			<!--dl><a href="#">职业卫生</a><a href="#">院长信箱</a><a href="#">加入收藏</a></--dl-->
+			<a href="#">教务管理系统</a>
+			<!--a href="#">耳鼻咽喉头颈外科</a-->
+			<!--a href="#">广州市职业卫生信息网</a-->
+		</div>
+		<div class="search"><input name="" type="text" class="text" value="请输入关键字"/><a href="#" class="btn"></a></div>
+		<div class="mainnav">
+			<ul>
+				<li id="nav1"><span><a href="index1.html">版块1</a></span></li>
+				<li id="nav2"><span><a href="index1.html">版块2</a></span></li>
+				<li id="nav3"><span><a href="index1.html">版块3</a></span></li>
+				<li id="nav4"><span><a href="index1.html">版块4</a></span></li>
+				<li id="nav5"><span><a href="index1.html">版块5</a></span></li>
+				<li id="nav6"><span><a href="index1.html">版块6</a></span></li>
+				<li id="nav7"><span><a href="index1.html">版块7</a></span></li>
+				<li id="nav8"><span><a href="index1.html">版块8</a></span></li>
+				<li id="nav9"><span><a href="index.html">版块9</a></span></li>
+				<li id="nav10"><span><a href="index.html">版块10</a></span></li>
+			</ul>
+		</div>
+	</div>
+	<!--side S-->
+	<!--div class="super-side-menu">
+		<iframe src="public_left.html" width="205" height="100%" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"></iframe>
+	</--div>
+	<!--side E-->
+	<!--content S-->
+	<div class="Content_home">
+		
+		<!--div class="super-header super-header2">
+			<iframe src="public_header.html" id="Pubheader" name="Pubheader" width="100%"  marginheight="0" marginwidth="0" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<!--header-->
+		<div class="superCtab superCtabBot" style="height: 695px;">
+			<iframe src="wenzhang_xinwen.html" id="Mainindex" name="Mainindex" width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+		</div>
+		<!--main-->
+		
+	</div>
+	<!--content E-->
+	<script type="text/javascript" language="javascript">
+       jQuery("#nav1").attr("class","onnav");
+    </script>
+	<script>
+        window.onresize = function(){
+            var winH=$(window).height();
+            var headH=$('.super-header').height();
+            $('.superWrap').height(winH);
+            $('.superCtabBot').height(winH-headH);
+        };
+        $(window).resize();
+	</script>
+
+</body>
+</html>
