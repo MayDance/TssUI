@@ -5,24 +5,34 @@ img{ border:none;}
 ul,ol,dl,form{ padding:0px; margin:0px;}
 input,select,font,em{ font-size:12px; font-style:normal; font-family:"微软雅黑"; color:#4c4c4c;}
 li{ list-style:none;}
-a{ text-decoration:none; color:#4c4c4c; noline:expression(this.onFocus=this.blur());}
 a:focus { outline:none; -moz-outline:none;}
-a:hover{ text-decoration:underline; color:#009b4c;}
+a {	text-decoration: none;	color: #333;}
+a:hover {
+    text-decoration: none;
+    color: #F23E47;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
 .clear{ clear:both; height:0px; overflow:hidden;}
 .space10{ clear:both; height:10px; overflow:hidden;}
 .space25{ clear:both; height:25px; overflow:hidden;}
 .space35{ clear:both; height:35px; overflow:hidden;}
 
 .Content{ width:1002px; margin:auto; background:url(../images/BgContent.jpg) repeat-y left top;}
+.Content1{width:1002px; margin:auto}
+.Content2{width:1002px; margin:auto; background-color:#ffffff}
 .Content_home{ width:1002px; margin:auto;}
 .Sidebar{ width:204px; float:left; padding:0 11px;}
 .RightSidebar{ width:735px; float:right; padding-right:20px;}
 .mianContent{ line-height:28px; padding:15px 0px;}
+.TopicPath{ font-size:14px}
 
 
 /**/
 .header{ width:1002px; height:170px; margin:auto; position:relative; z-index:88; }
-.header .logo{ width:441px; height:51px; position:absolute; left:0px; top:51px; margin:0px; padding:0px;}
+.header .logo{ width:313px; height:65px; position:absolute; left:0px; top:51px; margin:0px; padding:0px;}
 .header .logo a{ display:block; height:51px;}
 .header .search{ width:224px; height:32px; background:url(../images/Top_searchBg.jpg) no-repeat top; position:absolute; right:0px; top:60px;}
 .header .search .text{ position:absolute; left:15px; width:175px; height:32px; line-height:32px; border:none; background:none; color:#999;}
@@ -330,3 +340,13 @@ a:hover{ text-decoration:underline; color:#009b4c;}
 .Pages .i_button { position:relative; width:41px; height:26px; cursor:pointer; border:none; background:url(../images/Btn_go.jpg) no-repeat; display:none;}
 .Pages .a_first,.Pages .a_prev,.Pages .a_next,.Pages .a_end{ padding:3px 8px 0px; background:url(../images/Page_btnBg.jpg) repeat-x left bottom #FFF; border:solid 1px #ddd;}
 
+.pageSelect1 { position: relative; height: 74px; margin: 0 2%;}
+.pageSelect1 span { position: absolute; left: 0; top: 0; line-height: 74px; color: #8a8a8a;}
+.pageSelect1 span b { font-weight: normal; color: #f23e47;}
+.pageSelect1 .pageWrap { text-align: center; padding-top: 21px;}
+.pageSelect1 .pageWrap a { display: inline-block; width: 41px; height: 33px;border: 1px solid #e6e6e6; text-align: center; color: #919191; line-height: 33px; margin: 0 3px; background: #fff;}
+.pageSelect1 .pageWrap a i { cursor: pointer;}
+
+.pageSelect1 .pageWrap a.cur ,.pageSelect1 .pageWrap a:hover { background: #81848b; color: #fff; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px;}
+.pageSelect1 .pageWrap a i.ico-pre { display: block; width: 8px; height: 33px; background: url(../images/ico_fabu_page.png) no-repeat 0 10px; margin: 0 auto; }
+.pageSelect1 .pageWrap a i.ico-next { display: block; width: 8px; height: 33px; background: url(../images/ico_fabu_page.png) no-repeat 0 -29px; margin: 0 auto;}

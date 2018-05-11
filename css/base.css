@@ -13,7 +13,7 @@ a:hover {
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
-img { border: 0px; outline-width: 0px; vertical-align: top;}
+/*img { border: 0px; outline-width: 0px; vertical-align: top;}
 .clearfix:after {
 	clear: both;
 	content: "\200B";
@@ -22,7 +22,7 @@ img { border: 0px; outline-width: 0px; vertical-align: top;}
 }
 .clearfix {
 	*zoom: 1;
-}
+}*/
 button,input,optgroup,select,textarea {
 	margin: 0;
 	font: inherit;
@@ -63,8 +63,9 @@ input {
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
 }
 /* 动画 */
+/*
 @-webkit-keyframes bounceIn {
-	/* 默认 */
+	/* 默认 *//*
 	0% {
 		opacity: 0;
 		-webkit-transform: scale(.5);
@@ -381,7 +382,7 @@ input {
 }
 
 
-/*select*/
+/*select*//*
 
 select,
 .select_ui {
@@ -447,4 +448,4 @@ select:focus,
 	height: 100%;
 	opacity: 0;
 }
-.select_ui select option { padding: 5px 10px;}
+.select_ui select option { padding: 5px 10px;}*/
